@@ -2,6 +2,8 @@
 
 This repository contains the anonymized release of **MedForge-Reasoner**, including core training scripts, evaluation tools, and sample dataset components from the paper "MedForge: Interpretable Medical Deepfake Detection via Forgery-aware Reasoning".
 
+Arxiv Paper Link: https://arxiv.org/abs/2603.18577
+
 ## Abstract
 Text-guided image editors can now manipulate authentic medical scans with high fidelity, threatening clinical trust and safety. MedForge provides a pre-hoc, evidence-grounded solution for medical forgery detection. We introduce **MedForge-90K**, a large-scale benchmark of realistic lesion edits with expert-guided reasoning supervision. **MedForge-Reasoner** performs localize-then-analyze reasoning, predicting suspicious regions before producing a verdict, and is aligned via Forgery-aware GSPO to strengthen grounding and reduce hallucinations.
 
