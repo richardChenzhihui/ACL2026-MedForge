@@ -112,6 +112,10 @@ Based on these findings, I conclude that:
 
 Detailed annotation guidelines are under `dataset_tools/` (e.g. guideline documents) when present in your checkout.
 
+## License
+
+Source code in this repository is licensed under the **Apache License, Version 2.0** — see the [`LICENSE`](LICENSE) file. **MedForge-90K**, **MedForge-Reasoner** weights, and other materials on Hugging Face remain under the licenses and terms stated on their respective Hub pages (for example C-UDA for the dataset); this repository license applies only to the code here.
+
 ## Citation
 
 If you use this code, the dataset, or the model, please cite:
