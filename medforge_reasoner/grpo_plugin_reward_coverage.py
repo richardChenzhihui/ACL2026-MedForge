@@ -223,7 +223,12 @@ class DeepfakeComplexReward(ORM):
             # 1. Classification check from the last sentence
             lines = sol_str.strip().split('\n')
             last_line = lines[-1].strip() if lines else ""
-            is_fake = "is a deepfake" in last_line.lower()
+            if "is a deepfake" in last_line.lower():
+                is_fake = True
+            elif "is a real image" in last_line.lower():
+                is_fake = False
+            else:
+                return None  # Malformed GT, skip
             
             # 2. Extract components
             def extract_tag(tag, text):
