@@ -4,6 +4,14 @@ Official code release for our **ACL 2026 (Main Conference)** paper: *MedForge: I
 
 This repository contains **MedForge-Reasoner** training and evaluation code: core training scripts (SFT / Forgery-aware GSPO), evaluation utilities, and dataset tooling described in the paper. For full benchmark data, model weights, and an interactive demo, please use the Hugging Face resources below and comply with their licenses and terms of use.
 
+## Overview
+
+![MedForge promotional overview](assets/readme-banner.png)
+
+## Core Method
+
+![MedForge-Reasoner training and inference pipeline](assets/readme-framework.png)
+
 ## Hugging Face resources
 
 | Resource | Link | Notes |
